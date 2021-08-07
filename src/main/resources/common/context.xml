@@ -1,0 +1,14 @@
+<Context>
+    <!-- 邮箱 -->
+    <Environment name="emailUser" value="784095454@qq.com" type="java.lang.String"/>
+    <!-- 邮箱密码 第三方密码通过邮箱中的POP3支持获得的授权码 -->
+    <Environment name="emailPwd" value="cygjuhzvjshfbbgj" type="java.lang.String"/>
+    <!-- 邮箱服务器 qq邮箱服务器 -->
+    <Environment name="emailHost" value="smtp.qq.com" type="java.lang.String"/>
+    <!-- 使用密码认证 -->
+    <Environment name="emailAuth" value="true" type="java.lang.String"/>
+    <!-- 通信协议 smtp -->
+    <Environment name="emailProtocol" value="smtp" type="java.lang.String"/>
+    <!-- 通信端口号 25 -->
+    <Environment name="emailPort" value="25" type="java.lang.Integer"/>
+</Context>
