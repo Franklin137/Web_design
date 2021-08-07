@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/design?serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:3306/webdesign?serverTimezone=UTC
     username: root
     password: 666
 
@@ -9,3 +9,7 @@ spring:
       enabled: true
       urlPattern: /*
       exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+
+server:
+  port: 8088
+

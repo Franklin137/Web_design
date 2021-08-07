@@ -6,8 +6,10 @@ import com.sign.sevices.TeacherService;
 import com.sign.sevices.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
+
 public class LoginController {
     @Autowired
     UserService userService;
@@ -20,4 +22,7 @@ public class LoginController {
 
     @Autowired
     StudentService studentService;
+
+
+
 }
