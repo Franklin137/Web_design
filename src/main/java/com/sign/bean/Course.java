@@ -18,4 +18,5 @@ public class Course implements Serializable {
     private String name;
     private Integer term;
     private String address;
+    private String courseId;
 }

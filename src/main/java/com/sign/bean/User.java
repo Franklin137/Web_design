@@ -14,8 +14,7 @@ import java.io.Serializable;
 public class User implements Serializable {
     @TableId(type = IdType.AUTO)
     private String id;
-
+    private String username;
     private String password;
-
-    private Integer roleId;
+    private Integer usertype;
 }

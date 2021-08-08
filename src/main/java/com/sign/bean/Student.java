@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.ToString;
 
+import java.awt.*;
 import java.io.Serializable;
 
 @Data
@@ -14,8 +15,10 @@ import java.io.Serializable;
 public class Student implements Serializable {
     @TableId(type = IdType.AUTO)
     private Integer id;
-    private String student_id;
+    private String studentId;
     private String name;
     private String sex;
-    private String class_name;
+    private String className;
+    private Image image;
+    private String email;
 }

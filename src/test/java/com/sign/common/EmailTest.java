@@ -1,5 +1,6 @@
 package com.sign.common;
 
+import com.mysql.cj.util.StringUtils;
 import com.sun.mail.util.MailSSLSocketFactory;
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +17,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EmailTest {
     @Test
-    public void SendMail() throws GeneralSecurityException, MessagingException {
+    public void SendMail() {
+
     }
 
 }

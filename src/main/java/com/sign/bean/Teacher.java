@@ -16,5 +16,6 @@ public class Teacher implements Serializable {
     private Integer id;
     private String name;
     private String sex;
-    private String work_id;
+    private String workId;
+    private String email;
 }
